@@ -1,0 +1,23 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "category": "Puzzle",
+    "icon": "🔢",
+    "src": "https://play2048.co/"
+  },
+  {
+    "id": "chess",
+    "title": "Chess",
+    "category": "Board",
+    "icon": "♟️",
+    "src": "https://www.chess.com/emboard"
+  },
+  {
+    "id": "example-game",
+    "title": "Example Game (replace me)",
+    "category": "Misc",
+    "icon": "🎮",
+    "src": "https://example.com/your-game-embed-url"
+  }
+]

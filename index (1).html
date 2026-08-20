@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snips Unblocked Games</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- falling cats layer, filled by script.js -->
+<div id="cat-rain" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="logo">
+      <svg class="logo-cat" viewBox="0 0 64 64" width="40" height="40" aria-hidden="true">
+        <path fill="currentColor" d="M14 8 L22 22 L10 22 Z"/>
+        <path fill="currentColor" d="M50 8 L54 22 L42 22 Z"/>
+        <circle cx="32" cy="34" r="20" fill="currentColor"/>
+        <circle cx="24" cy="32" r="3" fill="#0b0b0d"/>
+        <circle cx="40" cy="32" r="3" fill="#0b0b0d"/>
+        <path d="M28 40 Q32 44 36 40" stroke="#0b0b0d" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M14 38 L4 34 M14 41 L3 41 M14 44 L4 48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M50 38 L60 34 M50 41 L61 41 M50 44 L60 48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="logo-text">
+        <span class="logo-title">SNIPS</span>
+        <span class="logo-subtitle">Unblocked Games</span>
+      </span>
+    </a>
+
+    <div class="header-controls">
+      <input type="text" id="search-input" class="search-input" placeholder="Search games...">
+      <select id="category-select" class="category-select">
+        <option value="all">All Categories</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- player view, hidden until a game is picked -->
+  <section id="player-view" class="player-view hidden">
+    <div class="player-bar">
+      <button id="back-btn" class="back-btn">&larr; Back to Games</button>
+      <h2 id="player-title" class="player-title"></h2>
+      <button id="fullscreen-btn" class="fullscreen-btn">&#9974; Fullscreen</button>
+    </div>
+    <div class="iframe-wrap">
+      <iframe id="game-frame" src="" allowfullscreen frameborder="0"></iframe>
+    </div>
+  </section>
+
+  <!-- game grid -->
+  <section id="grid-view" class="grid-view">
+    <div class="hero">
+      <h1 class="hero-title">Play now. No blocks.<span class="hero-accent">No ads. No fuss.</span></h1>
+      <p class="hero-sub">Pick a game below and it loads right here on the page.</p>
+    </div>
+
+    <div id="game-grid" class="game-grid"></div>
+    <p id="empty-msg" class="empty-msg hidden">No games found. Try a different search.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Snips Unblocked Games &mdash; built for the classroom hallway and the study hall alike.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
