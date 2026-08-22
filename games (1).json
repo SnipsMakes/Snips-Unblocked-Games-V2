@@ -1,0 +1,51 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "category": "Puzzle",
+    "icon": "🔢",
+    "src": "https://play2048.co/"
+  },
+  {
+    "id": "chess",
+    "title": "Chess",
+    "category": "Board",
+    "icon": "♟️",
+    "src": "https://www.chess.com/emboard"
+  },
+  {
+    "id": "basket-random",
+    "title": "Basket Random",
+    "category": "Sports",
+    "icon": "🏀",
+    "src": "https://n-p362fv5ls2s4s6m33lwz3axlmpr4eykich4bcqi-0lu-script.googleusercontent.com/userCodeAppPanel"
+  },
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "category": "Sports",
+    "icon": "🏈",
+    "src": "https://g.w3technic.com/games/retro-bowl/"
+  },
+  {
+    "id": "getting-over-it",
+    "title": "Getting Over It",
+    "category": "Rage",
+    "icon": "🪓",
+    "src": "https://1877818097-atari-embeds.googleusercontent.com/embeds/8ba78a5061a5008d7a0bac8cfaf5dc0c/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.zhTT8Br0Ho8.O%2Fd%3D1%2Frs%3DAHpOoo-7LeULGjNQZRvhdu3G71akb6JY6A%2Fm%3D__features__"
+  },
+  {
+    "id": "rage-3",
+    "title": "Rage 3",
+    "category": "Rage",
+    "icon": "😤",
+    "src": "https://695895041-atari-embeds.googleusercontent.com/embeds/8ba78a5061a5008d7a0bac8cfaf5dc0c/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.zhTT8Br0Ho8.O%2Fd%3D1%2Frs%3DAHpOoo-7LeULGjNQZRvhdu3G71akb6JY6A%2Fm%3D__features__"
+  },
+  {
+    "id": "ovo-3",
+    "title": "OvO 3",
+    "category": "Rage",
+    "icon": "🏃",
+    "src": "https://gameinclassroom.github.io/ovo-3/"
+  }
+]
